@@ -4,6 +4,7 @@ import express from "express";
 import mongoose from "mongoose";
 import cors from "cors";
 import dotenv from "dotenv";
+import Receta from "./models/Receta.js";
 
 // Cargar variables de entorno desde .env
 dotenv.config();
